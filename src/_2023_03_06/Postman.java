@@ -1,3 +1,5 @@
+package _2023_03_06;
+
 public class Postman {
     String name;
 

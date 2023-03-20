@@ -13,9 +13,9 @@ public class COLL {
             list.add(new Random().nextInt(22));
         }
 
-        for (int i = 0; i < list.size(); i++) {
-            if(list.get(i) %2 == 0 && list.get(i) != 0) {
-                list2.add(list.get(i));
+        for (Integer integer : list) {
+            if (integer % 2 == 0 && integer != 0) {
+                list2.add(integer);
             }
         }
 

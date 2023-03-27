@@ -17,6 +17,7 @@ public class Link implements Comparable<Link> {
 
     private final static Random RANDOM = new Random();
 
+
     public Page goToPage(Link link) {
         log();
         scan();

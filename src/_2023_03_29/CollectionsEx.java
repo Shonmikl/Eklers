@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 public class CollectionsEx {
     public static void main(String[] args) {
-        Map<Emp, Integer> map = new TreeMap<>();
+        Map<Emp, Integer> map = new HashMap<>();
         map.put(new Emp("Nikolay", 25), 2500);
         map.put(new Emp("Sem", 26), 3500);
         map.put(new Emp("Olga", 25), 3000);

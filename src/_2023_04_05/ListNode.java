@@ -16,12 +16,20 @@ public class ListNode {
     }
 
     public boolean hasCycle(ListNode head) {
+        ListNode first = head;
+        ListNode second = head.next;
 
+        while (first != second) {
+            if(first == null || second.next == null) {
+                return false;
+            }
+            first = first.next;
+            second = second.next.next;
+        }
         return true;
     }
 
     public static void main(String[] args) {
-
         ListNode l5 = new ListNode();
         ListNode l4 = new ListNode();
         ListNode l3 = new ListNode();

@@ -10,8 +10,5 @@
         <module name="Sprint_2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Eklers" target="16" />
-    </bytecodeTargetLevel>
   </component>
 </project>

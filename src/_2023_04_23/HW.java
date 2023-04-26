@@ -7,7 +7,7 @@ import lombok.ToString;
 
 public class HW {
     /**
-     * List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10);
+     * List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 6, 7, 8);
      * - Фильтрация списка на нечетные числа
      * - Определение максимального значения в списке
      * - Получение среднего значения списка целых чисел
@@ -24,6 +24,10 @@ public class HW {
      * List<Person> people = Arrays.asList(new Person("John", 25), new Person("Alice", 22), new Person("Bob", 30));
      * List<String> names = people.stream()
      * - Преобразование списка объектов класса в список их имен, отсортированных по возрасту
+     *
+     * Написать метод (стримами и НЕ стримами), который проходится по массиву
+     * и находит все пары чисел, которые в сумме дают заданное число.
+     * int[] arr = {2,3,5,6,4,7,8}; K=10 - [2 8] [3 7] [6 4]
      */
 }
 

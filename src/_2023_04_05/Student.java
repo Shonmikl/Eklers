@@ -13,5 +13,6 @@ import lombok.ToString;
 public class Student {
     private String name;
     private int course;
+    private char sex;
     private double avgGrade;
 }

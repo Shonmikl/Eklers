@@ -2,23 +2,25 @@ package _2023_05_17;
 
 public class RegexTask {
     /**
-     *Задача 1 (Сложность 4/10):
-     *Найти и заменить все email адреса в строке на "REDACTED".
+     * Задача 1 (Сложность 4/10):
+     * Найти и заменить все email адреса в строке на "REDACTED".
      */
 
-    private static void replace() {
-        String input = "Contact us at info@example.com or support@example.com";
+    //  String input = "Contact us at info@example.com or support@example.com";
+    private static String replace(String input) {
         String replacement = "REDACTED";
+        return null;
     }
 
     /**
-     *Задача 2 (Сложность 6/10):
-     *Проверить, является ли строка валидным номером телефона
-     *в формате "+X-XXX-XXX-XXXX", где X - цифра.
+     * Задача 2 (Сложность 6/10):
+     * Проверить, является ли строка валидным номером телефона
+     * в формате "+X-XXX-XXX-XXXX", где X - цифра.
      */
 
-    private static void check() {
-        String phoneNumber = "+1-555-123-4567";
+    //String phoneNumber = "+1-555-123-4567";
+    private static boolean check(String phoneNumber) {
+        return true;
     }
 
     /**
@@ -28,7 +30,8 @@ public class RegexTask {
      * и содержащим доменное имя и путь.
      */
 
-    private static void checkURL() {
-        String url = "https://www.example.com/path/to/page.html";
+    // String url = "https://www.example.com/path/to/page.html";
+    private static boolean isValidURL(String URL) {
+        return true;
     }
 }

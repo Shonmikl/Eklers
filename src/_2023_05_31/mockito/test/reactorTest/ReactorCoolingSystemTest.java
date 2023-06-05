@@ -1,5 +1,4 @@
-package _2023_05_31.mockito.test.reactorTest;
-//package javaProf.unit.mockito.test.reactorTest;
+//package _2023_05_31.mockito.test.reactorTest;
 //
 //import javaProf.unit.mockito.reactor.ReactorCoolingSystem;
 //import javaProf.unit.mockito.reactor.Thermometer;

@@ -13,7 +13,7 @@ package _2023_05_31.mockito.test.spiesTest;//package javaProf.unit.mockito.test.
 //class MockDemo {
 //
 //	@Mock
-//	List<String> listMock = new ArrayList<>();
+//	List<String> listMock;
 //
 //	@Test
 //	public void testMockReturnsZero() {

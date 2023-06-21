@@ -15,14 +15,13 @@ public class ConcHashMap {
         map.put(5, "F");
 
         Runnable R1 = () -> {
-            Iterator<Integer> iterator = map.keySet().iterator();
-            while (iterator.hasNext()) {
+            for (Integer integer : map.keySet()) {
                 try {
                     Thread.sleep(800);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                Integer i = iterator.next();
+                Integer i = integer;
                 System.out.println(i + " : " + map.get(i));
             }
         };
